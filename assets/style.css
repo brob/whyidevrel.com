@@ -1,17 +1,28 @@
 html {
-    font-size: 105%;
+    font-size: 115%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
-
+body {
+    background-color: rgb(244, 244, 244);
+}
+h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.story > * + * {
+    margin-top: 1.25em;
+}
 
 .container {
-    max-width: 80ch;
+    max-width: 75ch;
     margin: 0 auto;
 }
 
 .story:not(:first-child) {
     margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid #eee;
+}
+
+.story {
+    padding: 1rem;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
