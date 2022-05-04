@@ -1,0 +1,10 @@
+---
+layout: 'base.html'
+---
+<h1>Stories from DevRels about WHY they do what they do</h1>
+
+
+{% for story in collections.stories %}
+<h2>{{ story.data.title }}</h2>
+<p>{{ story.templateContent }}</p>
+{% endfor %}
