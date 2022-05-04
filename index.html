@@ -3,8 +3,11 @@ layout: 'base.html'
 ---
 <h1>Stories from DevRels about WHY they do what they do</h1>
 
-
+<section class="stories">
 {% for story in collections.stories %}
-<h2>{{ story.data.title }}</h2>
-<p>{{ story.templateContent }}</p>
+    <article class="story">
+        <h2>From <a href="{{story.data.link}}">{{ story.data.title }}</a></h2>
+        <p>{{ story.templateContent }}</p>
+    </article>
 {% endfor %}
+</section>

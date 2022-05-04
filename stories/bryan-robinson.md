@@ -1,5 +1,6 @@
 ---
 title: Bryan Robinson
+link: https://bryanlrobinson.com
 ---
 
 I’m an educator. 
