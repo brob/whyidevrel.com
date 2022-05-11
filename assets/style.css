@@ -4,17 +4,59 @@ html {
 }
 body {
     background-color: rgb(244, 244, 244);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #067862;
+}
+a:hover {
+    text-decoration: underline;
 }
 h2, h3, h4, h5, h6 {
     margin: 0;
 }
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-block-end: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.title {
+    font-size: 1.25rem;
+}
+.subtitle {
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
 .story > * + * {
     margin-top: 1.25em;
+}
+.story p {
+    font-size: 1.15rem;
+    line-height: 1.5;
 }
 
 .container {
     max-width: 75ch;
     margin: 0 auto;
+    flex: 1;
 }
 
 .story:not(:first-child) {
@@ -25,4 +67,12 @@ h2, h3, h4, h5, h6 {
     padding: 1rem;
     background-color:white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-block-start: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 }
