@@ -10,4 +10,5 @@ If you are or have been a DevRel, you're welcome to contribute. It doesn't have 
 2. Add a file in the `stories` directory named with your name (e.g. `/stories/your-name-here.md`)
 3. The `title` frontmatter should be your name (or `anonymous` if you choose). An optional `link` frontmatter should you want to link to your twitter or personal site, etc.
 4. The body of the markdown will be your story (however long)
-5. Issue a Pull Request back into this repository.
+5. If you want to control where the homepage breaks your story, use the `<!-- excerpt -->` tag in between paragraphs.
+6. Issue a Pull Request back into this repository.

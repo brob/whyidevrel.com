@@ -2,13 +2,12 @@
 title: Bryan Robinson
 link: https://bryanlrobinson.com
 ---
-
 I’m an educator. 
 
 Not sure if that sounds cliche or not. I was asked last year about what I felt was at the heart of who I am, personally. I thought about that a lot and that was the conclusion I came to.
 
 When I look at how I interact with people both personally and professionally, a lot of it ends up with a framing of wanting to help someone come to a stronger understanding of something. AKA Educating them.
-
+<!-- excerpt -->
 My mother was a teacher and I grew up watching what that meant. 
 
 In high school, I was never an official tutor, but in multiple classes, I was the one the other kids came to for help understanding concepts.

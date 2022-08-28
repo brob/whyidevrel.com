@@ -1,6 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="story">
-        {{content |safe}}
+        <h1>From <a href="{{link}}">{{ title }}</a></h1>
+        {{content | safe}}
+
+{% set previousPost = collections.stories | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.stories | getNextCollectionItem(page) %}
+        {% if previousPost or nextPost %}
+        <div style="border-top: 1px solid #999; padding-top: 5px; display: flex; justify-content: space-between">
+        {% if previousPost %}<div>Previous story: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></div>{% endif %}
+        {% if nextPost %}<div>Next story: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></div>{% endif %}
+        </div>
+        {% endif %}
     </div>
 {% endblock %}

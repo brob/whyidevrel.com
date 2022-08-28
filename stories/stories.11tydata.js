@@ -1,5 +1,5 @@
 let data = {
-    "layout": "base.html",
+    "layout": "interior.njk",
     "tags": "stories",
 }
 if(process.env.NODE_ENV === "production") {

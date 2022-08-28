@@ -6,7 +6,9 @@ layout: 'base.html'
 {% for story in collections.stories %}
     <article class="story">
         <h2>From <a href="{{story.data.link}}">{{ story.data.title }}</a></h2>
-        <p>{{ story.templateContent }}</p>
+        {% excerpt story %}
+        <a href="{{story.url}}">Read {{story.data.title}}'s whole story &raquo;</a>
+
     </article>
 {% endfor %}
 </section>

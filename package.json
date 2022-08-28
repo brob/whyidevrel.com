@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.8"
+    "@11ty/eleventy": "^2.0.0-canary.8",
+    "eleventy-plugin-blog-tools": "^0.4.1",
+    "eleventy-plugin-svg-contents": "^0.7.0"
   }
 }
